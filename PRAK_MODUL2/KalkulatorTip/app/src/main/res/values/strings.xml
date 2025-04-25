@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Kalkulator Tip</string>
+
+    <string name="app_Nana">Tip Amount</string>
+
+    <string name="app_Nunu">Round up tip?</string>
+
+    <string name="app_Nene">How was the service?</string>
+
+    <string name="app_Nono">Cost of Service</string>
+
+    <string name="app_legam">Amazing (20%)</string>
+
+    <string name="app_white">Good (18%)</string>
+
+    <string name="app_coklat">Okay (15%)</string>
+
+    <string name="app_Medium">CALCULATE</string>
+
+    <string name="tip_result">Tip Amount: $%.2f</string>
+
+</resources>
