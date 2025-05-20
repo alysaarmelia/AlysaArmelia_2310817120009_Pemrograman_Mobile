@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "com.example.londondestination.app-debug-4:/drawable_bigben.jpg.flat",
+        "source": "com.example.londondestination.app-main-6:/drawable/bigben.jpg"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/drawable_londoneye.webp.flat",
+        "source": "com.example.londondestination.app-main-6:/drawable/londoneye.webp"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.londondestination.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/drawable_buckinghampalace.jpg.flat",
+        "source": "com.example.londondestination.app-main-6:/drawable/buckinghampalace.jpg"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/layout_activity_main.xml.flat",
+        "source": "com.example.londondestination.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/drawable_harrypotterstudio.jpg.flat",
+        "source": "com.example.londondestination.app-main-6:/drawable/harrypotterstudio.jpg"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.londondestination.app-main-6:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.londondestination.app-main-6:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.londondestination.app-main-6:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/layout_detail_fragment.xml.flat",
+        "source": "com.example.londondestination.app-main-6:/layout/detail_fragment.xml"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/xml_backup_rules.xml.flat",
+        "source": "com.example.londondestination.app-main-6:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.londondestination.app-main-6:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/drawable_thesherlockholmesmuseum.jpg.flat",
+        "source": "com.example.londondestination.app-main-6:/drawable/thesherlockholmesmuseum.jpg"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.londondestination.app-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.londondestination.app-main-6:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.londondestination.app-main-6:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.londondestination.app-main-6:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.londondestination.app-main-6:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.londondestination.app-main-6:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/drawable_toweroflondon.webp.flat",
+        "source": "com.example.londondestination.app-main-6:/drawable/toweroflondon.webp"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/layout_home_fragment.xml.flat",
+        "source": "com.example.londondestination.app-main-6:/layout/home_fragment.xml"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.londondestination.app-main-6:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/drawable_british_museum.jpg.flat",
+        "source": "com.example.londondestination.app-main-6:/drawable/british_museum.jpg"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/drawable_camdenmarket.jpg.flat",
+        "source": "com.example.londondestination.app-main-6:/drawable/camdenmarket.jpg"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/drawable_hydepark.webp.flat",
+        "source": "com.example.londondestination.app-main-6:/drawable/hydepark.webp"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.londondestination.app-main-6:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/drawable_naturalhistorymuseum.jpg.flat",
+        "source": "com.example.londondestination.app-main-6:/drawable/naturalhistorymuseum.jpg"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.londondestination.app-main-6:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/navigation_nav_graph.xml.flat",
+        "source": "com.example.londondestination.app-main-6:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/drawable_stpaulcathedral.jpg.flat",
+        "source": "com.example.londondestination.app-main-6:/drawable/stpaulcathedral.jpg"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/layout_item_list.xml.flat",
+        "source": "com.example.londondestination.app-main-6:/layout/item_list.xml"
+    },
+    {
+        "merged": "com.example.londondestination.app-debug-4:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.londondestination.app-main-6:/xml/data_extraction_rules.xml"
+    }
+]

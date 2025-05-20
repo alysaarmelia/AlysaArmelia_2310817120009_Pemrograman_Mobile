@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.example.londondestination.app-mergeDebugResources-3:/layout/home_fragment.xml",
+        "source": "com.example.londondestination.app-main-6:/layout/home_fragment.xml"
+    },
+    {
+        "merged": "com.example.londondestination.app-mergeDebugResources-3:/layout/activity_main.xml",
+        "source": "com.example.londondestination.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.londondestination.app-mergeDebugResources-3:/layout/detail_fragment.xml",
+        "source": "com.example.londondestination.app-main-6:/layout/detail_fragment.xml"
+    },
+    {
+        "merged": "com.example.londondestination.app-mergeDebugResources-3:/layout/item_list.xml",
+        "source": "com.example.londondestination.app-main-6:/layout/item_list.xml"
+    }
+]

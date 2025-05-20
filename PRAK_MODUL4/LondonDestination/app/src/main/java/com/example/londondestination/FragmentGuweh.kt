@@ -37,4 +37,15 @@ class FragmentGuweh : Fragment() {
         super.onDestroyView()
         _binding = null
     }
+    companion object {
+        fun newInstance(imageResId: Int, nama: String, deskripsi: String): FragmentGuweh {
+            val fragment = FragmentGuweh()
+            val args = Bundle()
+            args.putInt("imageResId", imageResId)
+            args.putString("nama", nama)
+            args.putString("deskripsi", deskripsi)
+            fragment.arguments = args
+            return fragment
+        }
+    }
 }
