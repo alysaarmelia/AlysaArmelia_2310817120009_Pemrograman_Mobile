@@ -7,7 +7,8 @@ import kotlinx.parcelize.Parcelize
 data class MyData(
     val nama: String,
     val description: String,
+    val descriptionsingkat: String,
     val year: Int,
+    val image:Int,
     val link: String
-)
-    : Parcelable
+): Parcelable

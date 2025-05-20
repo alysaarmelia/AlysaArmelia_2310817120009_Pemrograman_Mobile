@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.londondestination.databinding.DetailFragmentBinding
 
+
 class FragmentGuweh : Fragment() {
 
     private var _binding: DetailFragmentBinding? = null
@@ -35,21 +36,5 @@ class FragmentGuweh : Fragment() {
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
-    }
-
-    companion object {
-        fun newInstance(imageResId: Int, nama: String, deskripsi: String): FragmentGuweh {
-            val fragment = FragmentGuweh()
-            val args = Bundle()
-            args.putInt("imageResId", imageResId)
-            args.putString("nama", nama)
-            args.putString("deskripsi", deskripsi)
-            fragment.arguments = args
-            return fragment
-        }
-
-        fun newInstance(nama: String, deskripsi: String) {
-
-        }
     }
 }

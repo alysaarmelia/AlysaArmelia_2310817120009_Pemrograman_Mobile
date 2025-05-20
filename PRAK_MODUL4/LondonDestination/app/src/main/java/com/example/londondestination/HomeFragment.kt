@@ -1,15 +1,19 @@
 package com.example.londondestination
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.fragment.app.viewModels
+import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.core.os.bundleOf
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.londondestination.databinding.HomeFragmentBinding
-
+import kotlinx.coroutines.flow.collectLatest
+import kotlinx.coroutines.launch
 
 class HomeFragment : Fragment() {
 
@@ -17,18 +21,12 @@ class HomeFragment : Fragment() {
     private val binding get() = _binding!!
 
     private lateinit var adapter: MyAdapter
-    private val myDataList = listOf(
-        MyData("Tower Bridge", "Ikon jembatan di London", 1894, "https://en.wikipedia.org/wiki/Tower_Bridge"),
-        MyData("London Eye", "Kincir raksasa di tepi Sungai Thames", 2000, "https://en.wikipedia.org/wiki/London_Eye"),
-        MyData("British Museum", "Museum terkenal dengan koleksi dunia", 1753, "https://en.wikipedia.org/wiki/British_Museum"),
-        MyData("British Museum", "Museum terkenal dengan koleksi dunia", 1753, "https://en.wikipedia.org/wiki/British_Museum"),
-        MyData("British Museum", "Museum terkenal dengan koleksi dunia", 1753, "https://en.wikipedia.org/wiki/British_Museum")
-    )
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View {
+    private val viewModel: HomeViewModel by viewModels {
+        HomeViewModelFactory()
+    }
+
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         _binding = HomeFragmentBinding.inflate(inflater, container, false)
         return binding.root
     }
@@ -36,17 +34,38 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        adapter = MyAdapter(myDataList) { selectedItem ->
-            val bundle = bundleOf(
-                "imageResId" to R.drawable.ic_launcher_background,
-                "nama" to selectedItem.nama,
-                "deskripsi" to selectedItem.description
-            )
-            findNavController().navigate(R.id.action_HomeFragment_to_detailFragment, bundle)
+        adapter = MyAdapter(emptyList()) { selectedItem ->
+            viewModel.onItemClicked(selectedItem)
         }
 
         binding.rvCharacter.layoutManager = LinearLayoutManager(requireContext())
         binding.rvCharacter.adapter = adapter
+
+        viewLifecycleOwner.lifecycleScope.launch {
+            viewModel.destinationList.collectLatest { list ->
+                adapter = MyAdapter(list) { selectedItem ->
+                    viewModel.onItemClicked(selectedItem)
+                }
+                binding.rvCharacter.adapter = adapter
+            }
+        }
+
+        viewLifecycleOwner.lifecycleScope.launch {
+            viewModel.selectedItem.collectLatest { item ->
+                item?.let {
+                    Log.d("HomeFragment", "Navigasi ke DetailFragment untuk: ${it.nama}, Tahun: ${it.year}, Deskripsi: ${it.description}")
+
+                    val bundle = bundleOf(
+                        "imageResId" to it.image,
+                        "nama" to it.nama,
+                        "deskripsi" to it.description
+                    )
+                    findNavController().navigate(R.id.action_HomeFragment_to_detailFragment, bundle)
+                    viewModel.resetSelectedItem()
+                }
+            }
+        }
+
     }
 
     override fun onDestroyView() {

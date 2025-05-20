@@ -2,6 +2,7 @@ package com.example.londondestination
 
 import android.content.Intent
 import android.net.Uri
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -29,16 +30,19 @@ class MyAdapter(
         with(holder.binding) {
             textViewName.text = destination.nama
             textViewYear.text = destination.year.toString()
-            textViewDesc.text = destination.description
+            textViewDesc.text = destination.descriptionsingkat
+            imageView.setImageResource(destination.image)
 
             buttonLink.setOnClickListener {
                 val context = it.context
                 val intent = Intent(Intent.ACTION_VIEW, Uri.parse(destination.link))
                 context.startActivity(intent)
+                Log.d("MyAdapter", "Tombol Link ditekan untuk: ${destination.nama}")
             }
 
             buttonDetail.setOnClickListener {
                 onDetailClick(destination)
+                Log.d("MyAdapter", "Tombol Detail ditekan untuk: ${destination.nama}")
             }
         }
     }
