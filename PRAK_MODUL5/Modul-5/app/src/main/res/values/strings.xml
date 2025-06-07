@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Book App</string>
+
+    <string name="book_cover_image">Book Cover Image</string>
+
+    <string name="book_cover_image_large">Large book cover image</string>
+
+    <string name="detail_button_text">Detail</string>
+    <string name="info_button_text">Info</string>
+
+</resources>
