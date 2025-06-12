@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/HomeFragment"
-        android:name="com.example.myapi_test.HomeFragment"
+        android:name="com.example.myapi_test.presentation.ui.HomeFragment"
         android:label="HomeFragment" >
         <action
             android:id="@+id/action_HomeFragment_to_detailFragment"
@@ -15,7 +15,7 @@
 
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.example.myapi_test.DetailFragment"
+        android:name="com.example.myapi_test.presentation.ui.DetailFragment"
         android:label="DetailFragment" >
         <argument
             android:name="imageResId"

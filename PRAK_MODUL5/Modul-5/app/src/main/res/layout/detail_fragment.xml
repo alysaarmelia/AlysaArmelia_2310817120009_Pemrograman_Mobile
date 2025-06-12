@@ -62,7 +62,7 @@
                     android:layout_marginTop="8dp"
                     android:lineSpacingMultiplier="1.2"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
-                    tools:text="Deskripsi lengkap tempat destinasi." />
+                    tools:text="Deskripsi lengkap." />
             </LinearLayout>
 
         </LinearLayout>
