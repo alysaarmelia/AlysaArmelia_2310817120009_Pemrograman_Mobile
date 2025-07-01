@@ -30,6 +30,7 @@ class BookViewModel(application: Application) : AndroidViewModel(application) {
     fun fetchBooks() {
         _isLoading.value = true
         viewModelScope.launch {
+            
             val result = getBooksUseCase()
 
             result.onSuccess { domainBooks ->
