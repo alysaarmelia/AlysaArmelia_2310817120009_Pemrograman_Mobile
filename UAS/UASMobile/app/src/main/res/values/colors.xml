@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_red_light">#7F0909</color>
+    <color name="brand_red_dark">#5D0000</color>
+    <color name="brand_red_night">#9C2B2B</color>
+
+    <color name="brand_gold_light">#D3A625</color>
+    <color name="brand_gold_night">#EECB6D</color>
+
+    <color name="background_light">#F0E6D2</color>
+    <color name="background_dark">#1C1B1F</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="surface_dark">#2D2C30</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="splash_background">@color/background_light</color>
+
+</resources>

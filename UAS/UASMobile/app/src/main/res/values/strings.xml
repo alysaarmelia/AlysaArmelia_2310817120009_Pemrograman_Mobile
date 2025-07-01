@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">My Book App</string>
+
+    <string name="book_cover_image">Book Cover Image</string>
+
+    <string name="book_cover_image_large">Large book cover image</string>
+
+    <string name="detail_button_text">Detail</string>
+    <string name="info_button_text">Info</string>
+    <string name="login_title">Silahkan Login</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button_text">Login</string>
+
+    <string name="register_prompt">Don\'t have an account? <b>Register</b></string>
+    <string name="register_title">Create Account</string>
+    <string name="register_button_text">Register</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+
+    <string name="detail_title">Detail</string>
+
+    <string name="favorite_books_title">Favorite Books</string>
+    <string name="no_favorite_books">You have no favorite books yet.</string>
+    <string name="toggle_favorite">Toggle Favorite</string>
+
+</resources>
