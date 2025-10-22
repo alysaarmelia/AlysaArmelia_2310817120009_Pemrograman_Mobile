@@ -59,7 +59,7 @@ Pastikan semua service memiliki status `running` atau `healthy`.
 
 ### Langkah 8 – Jalankan ETL
 ```bash
-py -m pip install -r requirements.txt
+python -m pip install -r requirements.txt
 python dags/standalone_etl.py
 # atau
 docker exec ptxyz_airflow_worker python /opt/airflow/dags/standalone_etl.py
