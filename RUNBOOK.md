@@ -9,10 +9,10 @@ Panduan langkah demi langkah untuk menjalankan proyek *Perancangan Data Warehous
 
 | Nama | NIM | Role | Jobdesk |
 |------|-----|------|---------|
-| **Raudatul Sholehah** | 2310817220002 | Ketua | Koordinasi tim dan penentuan arah proyek |
+| **Raudatul Sholehah** | 2310817220002 | Ketua | Koordinasi tim dan penentuan arah proyek, Implementasi Replikasi, Menjalankan Data Warehouse|
 | **M. Adi Syahputra** | 2210817210017 | Anggota | Desain OLTP Source Data, Scheduling beserta alasannya |
 | **Maulidasari** | 2210817120011 | Anggota | Desain arsitektur end-to-end Data Warehouse, ETL Diagram |
-| **Alysa Armelia** | 2310817120009 | Anggota | Desain Dimension Modelling atau 3NF Data Warehouse, Runbook Final (RUNBOOK.md) |
+| **Alysa Armelia** | 2310817120009 | Anggota | Desain Dimension Modelling atau 3NF Data Warehouse, Dokumentasi (RUNBOOK.md) |
 | **Zahra Nabila** | 2310817320007 | Anggota | Insight yang didapat, Pembuatan PPT |
 | **GT. Muhammad Naufal Razin** | 2210817210002 | Anggota | Diskusi perbandingan dengan arsitektur berlawanan |
 
